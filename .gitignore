@@ -1,0 +1,8 @@
+# opam
+_build
+_opam
+
+# mac
+.DS_Store
+
+node_modules
