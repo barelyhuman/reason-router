@@ -1,3 +1,6 @@
 (library
  (name lib)
- (modes melange))
+ (modes melange)
+ (libraries melange-fetch)
+ (preprocess
+   (pps melange.ppx)))

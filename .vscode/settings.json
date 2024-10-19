@@ -1,6 +1,5 @@
 {
-    "ocaml.sandbox": {
-        "kind": "opam",
-        "switch": "${workspaceFolder:reason-router}"
-    }
+    "ocaml.server.extraEnv": {
+        "OCAMLLSP_SEMANTIC_HIGHLIGHTING": "full"
+    },
 }
